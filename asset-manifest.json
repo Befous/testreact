@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/testreact/static/js/main.2b18d806.js",
-    "index.html": "/testreact/index.html",
-    "main.2b18d806.js.map": "/testreact/static/js/main.2b18d806.js.map"
+    "main.js": "/cobareact2/static/js/main.ca12ae68.js",
+    "index.html": "/cobareact2/index.html",
+    "main.ca12ae68.js.map": "/cobareact2/static/js/main.ca12ae68.js.map"
   },
   "entrypoints": [
-    "static/js/main.2b18d806.js"
+    "static/js/main.ca12ae68.js"
   ]
 }
