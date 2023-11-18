@@ -1,22 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import LoginUser from "./postLoginUser.js";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <div>
+          <label>Username:<input id='username' type="text"/></label>
+          <br />
+          <label>Password:<input id='password' type="password"/></label><br /><button type="submit" onClick={LoginUser}>Login</button>
+        </div>
+
+        {/* Additional text or links can be added here */}
       </header>
     </div>
   );
